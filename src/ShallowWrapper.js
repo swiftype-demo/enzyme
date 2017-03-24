@@ -377,6 +377,12 @@ class ShallowWrapper {
     return findWhereUnwrapped(this, predicate).length > 0;
   }
 
+  
+  /**
+   * Additional comments go here for this PR
+   */
+  
+  
   /**
    * Whether or not a given react element exists in the shallow render tree.
    * Match is based on the expected element and not on wrappers element.
