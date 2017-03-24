@@ -51,10 +51,10 @@ testing your React components, you can consider using:
 
 ### [Installation](/docs/installation/README.md)
 
-To get started with enzyme, you can simply install it with npm:
+To get started with enzyme, you can simply install it with yarn:
 
 ```bash
-npm i --save-dev enzyme
+yarn install enzyme
 ```
 
 Enzyme is currently compatible with `React 15.x`, `React 0.14.x` and `React 0.13.x`. In order to
@@ -64,8 +64,8 @@ If you are using `React 0.14` or `React 15.x`, in addition to `enzyme`, you will
 you also have the following npm modules installed if they were not already:
 
 ```bash
-npm i --save-dev react-addons-test-utils
-npm i --save-dev react-dom
+yarn install react-addons-test-utils
+yarn install react-dom
 ```
 
 
